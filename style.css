@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+caption {
+  padding: 12px;
+  margin: 12px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: "Staatliches", cursive;
+}
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin: 10px;
+  padding: 10px;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  font-family: "Audiowide", cursive;
+}
+
+table td {
+  padding: 12px;
+}
+
+table th {
+  padding: 20px 0;
+  background-color: #91f41b;
+}
+
+table tr:nth-child(even) {
+  background-color: #98fbc6;
+}
